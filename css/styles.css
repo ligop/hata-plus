@@ -218,7 +218,8 @@ p.prop-info{
     font-style: normal;
 }
 p.prop-price{
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 24px;
     color:#fd8300
 }
 .prop-price b{
