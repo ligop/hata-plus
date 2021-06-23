@@ -16,12 +16,8 @@ sup{
     font-size: 0.55em;
 }
 hr{
-    margin: 35px 0;
     border: none;
     border-top: 1px solid #e4e4ec;
-}
-a{
-    position: relative;
 }
 .clear::after{
     content: '';
@@ -55,16 +51,11 @@ a{
     padding-left: 0;
 }
 .navigation{
-    display: inline-block;
-}
-.navigation ul{
-    margin: 0;
-    padding: 0;
+    float: left;
 }
 .navigation li{
-    padding-right: 14px;
+    margin-right: 14px;
     display: inline-block;
-    list-style: none;
 }
 .navigation a{
     text-decoration: none;
@@ -99,12 +90,13 @@ a{
     color: #25252c;
     font: 16/1.5em "Arial";
 }
-//.mail-logo,
-.skype-logo{
+.mail-logo{
     background: url(../img/sprite.png) no-repeat;
 }
-//.mail-logo{
-
+.skype-logo{
+    background: url(../img/sprite.png) no-repeat -37px 0px;
+    width: 17px;
+    height: 13px;
 }
 
 a.fb{
@@ -155,6 +147,10 @@ a.in:hover{
     position: absolute;
     left: -28px;
     bottom: -5px;
+}
+.url:hover,
+.skype:hover{
+    text-decoration: underline;
 }
 .tel::before{
     content: url(../img/phone.png);
@@ -225,6 +221,9 @@ p.prop-price{
 }
 .prop-price b{
     font-size: 40px;
+}
+.content{
+    padding: 35px 0px 45px;
 }
 .main{
     float: left;
