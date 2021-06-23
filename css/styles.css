@@ -88,17 +88,19 @@ hr{
 }
 .mail{
     color: #25252c;
-    font: 16/1.5em "Arial";
+    font: 16px/1.5em "Arial";
 }
-//.mail-logo{
-    background: url(../img/sprite.png) no-repeat;
+.mail-logo::before{
+    content: url(../img/mail.png);
 }
-//.skype-logo{
-    background: url(../img/sprite.png) no-repeat -37px 0px;
-    width: 17px;
-    height: 13px;
+.skype-logo::before{
+    content: url(../img/skype.png);
 }
-
+.mail-logo::before, 
+.skype-logo::before{
+    position: absolute;
+    left: -28px;
+}
 a.fb{
     width: 10px;
     height: 19px;
