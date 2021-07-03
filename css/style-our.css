@@ -297,9 +297,6 @@ p.prop-price{
     font: 700 24px "Roboto Slab";
     color: #24242b;
 }
-//table{
-    width: 100%;
-}
 article a{
     color: #fd8300;
     font-weight: bold;
@@ -319,74 +316,6 @@ figcaption p{
     margin: 0;
     color: #9999ab;
     font: 13px/1.4em "Arial";
-}
-aside{
-    float: right;
-}
-.aside-menu{
-    border-radius: 3px;
-    overflow: hidden;
-}
-.aside-menu ul{
-    margin: 0;
-    padding-left: 0;
-}
-.aside-menu p{
-    margin: 0;
-    padding: 11px 15px;
-    color: #fff;
-    font: 700 15px/1.7em "Roboto Slab";
-    background-color: #1f1f56;
-}
-.aside-menu li{
-    font: 14px/1.7em "Arial";
-}
-.aside-menu>ul>li+li{
-    border-top: 1px solid #cdcddd;
-}
-.aside-menu a{
-    position: relative;
-    display: block;
-    padding: 11px 15px;
-    color: #25252c;
-    text-decoration: none;
-    background-color: #e4e4ec;
-    transition: all .5s ease;
-}
-.aside-menu>ul>li>a::before{
-    content: '';
-    position: absolute;
-    top: 18px;
-    right: 15px;
-    width: 7px;
-    height: 7px;
-    border: 2px solid #666;
-    border-top: none;
-    border-left: none;
-    transform: rotate(-45deg);
-    transition: all .5s ease;
-}
-.aside-menu li:hover a:before{
-    border-color: #fff;
-    transform: rotate(45deg)
-}
-.aside-menu li:hover>a{
-    color: #fff;
-    background-color: #fd8300;
-}
-.sub-menu{
-    display: none;
-}
-.aside-menu li:hover .sub-menu{
-    display: block;
-}
-.sub-menu a{
-    padding-left: 30px;
-    color: #666;
-}
-.sub-menu li a:hover{
-    color: #666;
-    background-color: #cecedd;
 }
 footer{
     background-color: #ededf5;
