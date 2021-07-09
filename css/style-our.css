@@ -275,7 +275,7 @@ p.prop-price{
 }
 .main{
     float: left;
-    max-width: 715px;
+    width: max-content;
 }
 .main h1{
     font: 700 30px "Roboto Slab";
