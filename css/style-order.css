@@ -90,6 +90,10 @@ textarea {
     background-color: #fff;
     border: 1px solid #c5c5d4;
 }
+.button{
+    color: #25252c;
+    text-decoration: none;
+}
 .flex{
     display: flex;
     margin-bottom: 10px;
