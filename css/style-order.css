@@ -44,6 +44,56 @@ ul{
 .gap{
     padding-bottom: 20px;
 }
+.map{
+    width: 0 35px 0 0;
+    border: none;
+}
+.square{
+    display: flex;
+    padding-top: 35px;
+    margin-bottom: 45px;
+}
+.forma{
+    max-width: 490px;
+    margin: 0 28px;
+}
+.form h2{
+    margin: 0;
+    color: #24242b;
+    font: 700 15px/1.7em "Roboto Slab";
+}
+input{
+    font: italic 13px "Arial";
+    padding: 15px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #c5c5d4;
+}
+.text{
+    margin: 0 10px 0 0;
+    width: 50%;
+}
+.sms{
+    margin-bottom: 10px;
+    width: 100%;
+}
+textarea {
+    font: italic 13px "Arial";
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #c5c5d4;
+}
+.flex{
+    display: flex;
+    margin-bottom: 10px;
+}
 .contacts li:first-child{
     padding-bottom: 22px;
 }
