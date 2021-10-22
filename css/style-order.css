@@ -31,6 +31,10 @@ ul{
     margin: 0 auto;
     max-width: 960px;
 }
+h1{
+    color: #24242b;
+    font: 700 24px "Roboto Slab";
+}
 .office,
 .advice,
 .details{
@@ -40,6 +44,17 @@ ul{
 .office li,
 .advice li{
     padding-bottom: 10px;
+}
+.phone-number a,
+.phone-number a{
+    text-decoration: none;
+    color: #25252c;
+    font: bold 18px/1.3em "Arial";
+}
+.email a{
+    color: #25252c;
+    font: 16px/1.5em "Arial";
+    text-decoration: none;
 }
 .gap{
     padding-bottom: 20px;
@@ -84,7 +99,7 @@ textarea {
     height: 100px;
     width: 100%;
     margin-bottom: 10px;
-    padding-left: 5px;
+    padding: 15px;
     border-radius: 3px;
     box-sizing: border-box;
     background-color: #fff;
@@ -290,6 +305,10 @@ a.skype{
 .oval-button:hover{
     color: #fff;
     background-color: #fd8300;
+}
+a.oval-button{
+    text-decoration: none;
+    color: #24242b;
 }
 .table h1{
     color: #24242b;
