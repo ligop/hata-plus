@@ -60,6 +60,7 @@ h1{
     padding-bottom: 20px;
 }
 .map{
+    flex: 0 0 50%;
     width: 0 35px 0 0;
     border: none;
 }
@@ -69,8 +70,10 @@ h1{
     margin-bottom: 45px;
 }
 .forma{
+    flex: 0 0 50%;
     max-width: 490px;
-    margin: 0 28px;
+    padding: 0 28px;
+    box-sizing: border-box;
 }
 .form h2{
     margin: 0;
@@ -107,6 +110,9 @@ textarea {
     box-sizing: border-box;
     background-color: #fff;
     border: 1px solid #c5c5d4;
+}
+label{
+    font: 13px "Arial";
 }
 .button{
     color: #25252c;
