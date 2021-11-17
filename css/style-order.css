@@ -87,6 +87,9 @@ input{
     border: 1px solid #c5c5d4;
 }
 .text{
+    margin-right: 0px;
+}
+.text{
     margin: 0 10px 0 0;
     width: 50%;
 }
@@ -110,8 +113,12 @@ textarea {
     text-decoration: none;
 }
 .flex{
+    justify-content: space-between;
     display: flex;
     margin-bottom: 10px;
+}
+textarea{
+    resize: vertical;
 }
 .contacts li:first-child{
     padding-bottom: 22px;
